@@ -37,7 +37,9 @@ if(!empty($_POST))
 	{
 		$errors[] = lang("ACCOUNT_DISPLAY_CHAR_LIMIT",array(5,25));
 	}
-	if(!ctype_alnum($displayname)){
+
+	$valid_chars = array('-', '_', ' ', '.'); 
+	if( ! ctype_alnum(str_replace($valid_chars, '', $displayname)) ) { 
 		$errors[] = lang("ACCOUNT_DISPLAY_INVALID_CHARACTERS");
 	}
 	if(minMaxRange(8,50,$password) && minMaxRange(8,50,$confirm_pass))
