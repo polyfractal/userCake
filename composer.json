@@ -1,0 +1,19 @@
+{
+    "name": "vendor/UserCake",
+    "type": "library",
+    "description": "PHP user management and authentication library.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adam Davis",
+            "homepage": "http://www.usercake.com"
+        },
+        {
+            "name": "Jonathan Cassels",
+            "homepage": "http://www.usercake.com"
+        }
+    ],
+    "require": {
+        "php": ">=5"
+    }
+}
