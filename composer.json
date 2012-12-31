@@ -1,5 +1,6 @@
 {
     "name": "vendor/usercake",
+    "version": "2.0.1",
     "type": "library",
     "description": "PHP user management and authentication library.",
     "license": "MIT",
