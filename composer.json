@@ -1,5 +1,5 @@
 {
-    "name": "vendor/UserCake",
+    "name": "vendor/usercake",
     "type": "library",
     "description": "PHP user management and authentication library.",
     "license": "MIT",
